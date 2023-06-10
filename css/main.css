@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  /* box-sizing: border-box; */
+}
+body {
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 26px;
+  color: #727272;
+}
+
+/* Homepage */
+.homepage {
+  box-sizing: border-box;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding-top: 79px;
+  padding-bottom: 141px;
+}
+
+.list-unstyled {
+  list-style: none;
+  margin-bottom: 151px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+  box-sizing: border-box;
+}
+
+a:hover {
+  font-weight: 500;
+  color: #34547a;
+}
+
+li {
+  display: inline-block;
+  margin-right: 45px;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 60px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.875rem;
+  box-sizing: border-box;
+}
+
+.homepage_description {
+  margin-bottom: 65px;
+  width: 540px;
+  height: 67px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 225px;
+  height: 65px;
+  background-color: #34547a;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  box-sizing: border-box;
+}
+
+/* About */
+.about {
+  box-sizing: border-box;
+}
+
+h2 {
+  padding-top: 5.1%;
+  margin-bottom: 2.3%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.about_desc {
+  text-align: center;
+  width: 25%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+/* Projects */
+
+.projects {
+  padding-top: 5.26%;
+  text-align: center;
+}
+
+img {
+  padding-bottom: 5.25%;
+}
+
+img:not(:last-child) {
+  margin-right: 45px;
+}
+
+/* Process */
+
+div > div.process > h2 {
+  padding-top: 4.4%;
+  margin-bottom: 2.2%;
+}
+
+.process_descr {
+  max-width: 28.47%;
+  margin: 0 auto;
+  margin-bottom: 2.5%;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #727272;
+}
+
+.iframe_wrapper {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.iframe_container {
+  max-width: 1110px;
+  max-height: 600px;
+  padding-bottom: 5.27%;
+  margin: 0 auto;
+}
+
+/* Footer */
+
+.footer {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding-left: 406px;
+}
+
+h3 {
+  padding-top: 3.41%;
+  margin-bottom: 1.33%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.313rem;
+  color: #ffffff;
+}
+
+.rights {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffffff;
+  padding-bottom: 3.41%;
+}
